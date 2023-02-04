@@ -15,7 +15,7 @@ This is a simple web page that allows users to search Google or directly navigat
 
 ## Preview
 
-![Preview of Dark Theme Search and URL Redirect Page](Image (8).png)
+![Preview of Dark Theme Search and URL Redirect Page](preview.png)
 
 ## Contributing
 
