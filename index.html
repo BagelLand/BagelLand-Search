@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        background-color: #333;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      .search-container {
+        background-color: #444;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        padding: 0 20px;
+        border-radius: 10px;
+      }
+
+      .search-box {
+        background-color: #555;
+        border: none;
+        color: white;
+        padding: 10px;
+        font-size: 16px;
+        border-radius: 10px;
+        width: 80%;
+        margin-right: 10px;
+      }
+
+      .search-button {
+        background-color: #222;
+        border: none;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 10px;
+        font-size: 16px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="search-container">
+      <input type="text" class="search-box" id="search-input" onkeypress="handleKeyPress(event)">
+      <button class="search-button" onclick="searchGoogle()">Search</button>
+    </div>
+
+    <script>
+      function searchGoogle() {
+        var searchInput = document.getElementById("search-input").value;
+        window.location.href = "https://www.google.com/search?q=" + searchInput;
+      }
+
+      function handleKeyPress(event) {
+        if (event.key === "Enter") {
+          searchGoogle();
+        }
+      }
+    </script>
+  </body>
+</html>
