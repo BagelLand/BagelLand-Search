@@ -1,4 +1,4 @@
-# Dark Theme Search and URL Redirect Page (By BagelLand Team (Layered))
+# Dark Theme Search and URL Redirect Page (By BagelLand Team)
 
 This is a simple web page that allows users to search Google or directly navigate to a URL using a dark theme interface.
 
